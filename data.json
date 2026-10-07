@@ -4,7 +4,7 @@
   "pillars": [
     {
       "name": "Social",
-      "story": "Development achievements, settlement, migration, youth inclusion and health",
+      "story": "Human development, migration, youth inclusion and adult health",
       "cards": [
         {
           "name": "Human Development Index",
@@ -12,19 +12,9 @@
           "unit": "index",
           "period": "2023 · UNDP HDR 2025",
           "subtitle": "Very high human development, reflecting health, education and income achievements.",
-          "source": "UNDP, Human Development Report 2025",
-          "source_url": "https://hdr.undp.org/data-center/country-insights",
+          "source": "UNDP, Human Development Report 2025, Table 1",
+          "source_url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_Statistical_Annex_Tables_1-7.pdf",
           "icon": "🎓"
-        },
-        {
-          "name": "Population around St John’s",
-          "value": 51737,
-          "unit": "people",
-          "period": "2011 Census · historical baseline",
-          "subtitle": "Just over 60% of the national population lived in St John parish, including the city and rural area.",
-          "source": "Statistics Division, Census demographic profile, pp. 3–4",
-          "source_url": "https://statistics.gov.ag/wp-content/uploads/2017/11/2011-Antigua-and-Barbuda-Population-and-Housing-Census-A-Demographic-Profile.pdf",
-          "icon": "🏘️"
         },
         {
           "name": "Foreign-born Population",
@@ -47,12 +37,12 @@
           "icon": "💼"
         },
         {
-          "name": "Prevalence of Overweight and Obesity",
-          "value": 62.7,
+          "name": "Adult Hypertension Prevalence",
+          "value": 23.4,
           "unit": "%",
-          "period": "2022 · PAHO reported estimate",
-          "subtitle": "Excess weight highlights the importance of prevention and long-term health care; this is not obesity alone.",
-          "source": "PAHO, Health in the Americas",
+          "period": "2015 · adults aged 18 and older",
+          "subtitle": "High blood pressure highlights the need for prevention and long-term care. Historical national prevalence, not a current estimate.",
+          "source": "PAHO, Health in the Americas country profile",
           "source_url": "https://hia.paho.org/en/country-profiles/antigua-and-barbuda",
           "icon": "🫀"
         }
@@ -140,18 +130,8 @@
     },
     {
       "name": "Environmental",
-      "story": "Water and energy security, Barbuda’s disaster exposure and Redonda conservation",
+      "story": "National electricity supply and marine biodiversity protection",
       "cards": [
-        {
-          "name": "Water Security during Drought",
-          "value": 90,
-          "unit": "%+ desalinated",
-          "period": "End of 2015 drought · historical event",
-          "subtitle": "Desalinated water consumption exceeded 90%, compared with the report’s normal 60%. Not a current supply estimate.",
-          "source": "Department of Environment, State of the Environment 2021",
-          "source_url": "https://environment.gov.ag/wp-content/uploads/2025/10/Final-SOE-Report-Oct-18-2021.pdf",
-          "icon": "💧"
-        },
         {
           "name": "Electricity Generation Mix",
           "value": 93,
@@ -159,7 +139,7 @@
           "period": "2023 · IRENA published rounded shares",
           "subtitle": "Non-renewable generation dominates electricity supply, linking energy transition with resilience.",
           "source": "IRENA, country energy profile (updated September 2025)",
-          "source_url": "https://islands.irena.org/-/media/Files/IRENA/Agency/Statistics/Statistical_Profiles/Central-America-and-the-Caribbean/Antigua-and-Barbuda_Central-America-and-the-Caribbean_RE_SP.pdf",
+          "source_url": "https://www.irena.org/-/media/Files/IRENA/Agency/Statistics/Statistical_Profiles/Central-America-and-the-Caribbean/Antigua-and-Barbuda_Central-America-and-the-Caribbean_RE_SP.pdf",
           "icon": "⚡",
           "bars": [
             [
@@ -174,36 +154,27 @@
           "bar_unit": "%"
         },
         {
-          "name": "Barbuda Homes Damaged by Hurricane Irma",
-          "value": 95,
+          "name": "Protected Coverage of Marine Biodiversity Sites",
+          "value": 30.0,
           "unit": "%",
-          "period": "September 2017 · historical event",
-          "subtitle": "Damage across Barbuda shows why resilient housing and disaster preparedness matter.",
-          "source": "UNDP, Barbuda housing recovery assessment",
-          "source_url": "https://www.undp.org/barbados/press-releases/first-set-keys-handed-over-eu-funded-housing-support-barbuda-project",
-          "icon": "🌀",
-          "scope": "Barbuda only; historical damage, not current housing condition."
-        },
-        {
-          "name": "Redonda Marine Protection",
-          "value": 295.866,
-          "unit": "km²",
-          "period": "Designated 17 August 2023",
-          "subtitle": "Marine area of the Redonda Ecosystem Reserve, alongside protection of the island. Designation does not measure ecosystem condition.",
-          "source": "Government of Antigua and Barbuda, Statutory Instrument 2023 No. 37",
-          "source_url": "https://faolex.fao.org/docs/pdf/ant229068.pdf",
+          "period": "2024 · national marine KBA indicator",
+          "subtitle": "Country-level average protected-area coverage of marine Key Biodiversity Areas. Not the percentage of national waters protected.",
+          "source": "UN ECLAC, Statistical Yearbook 2025; SDG biodiversity coverage",
+          "source_url": "https://repositorio.cepal.org/server/api/core/bitstreams/b2476d6d-34cd-4e70-a7b7-d39e244a9070/content",
           "icon": "🐠"
         }
       ]
     }
   ],
-  "headline_themes": 14,
+  "headline_themes": 11,
   "notes": [
-    "14 indicator themes: 5 Social, 5 Economic, 4 Environmental. Charts combine related values within a theme.",
-    "National sources underpin settlement, migration, merchandise trade, industry shares, inflation, drought and protected-area designation.",
     "Debt and tourism receipts are IMF 2025 estimates, not the government budget’s earlier projections.",
-    "Historical census and drought values are not current conditions.",
-    "Tourism receipts are not tourism GDP contribution; hospitality sector shares are not total tourism shares."
+    "Tourism receipts are not tourism GDP contribution; hospitality sector shares are not total tourism shares.",
+    "11 country-level indicator themes: 4 Social, 5 Economic, 2 Environmental. Subpopulation measures (adult health and youth inclusion) cover the country, with age definitions explicit.",
+    "Removed parish and island-specific headline measures. Drought denominator could not be established as nationwide.",
+    "Migration uses the 2011 national census and only residents with recorded country of birth.",
+    "National publications underpin migration, merchandise trade, sector shares and inflation. International institutions supply the other country-level measures.",
+    "No countrywide climate-loss or current desalination percentage is presented without verification."
   ],
   "policy_context": {
     "source": "Government 2026 Budget Statement",
