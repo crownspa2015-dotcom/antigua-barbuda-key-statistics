@@ -1,0 +1,144 @@
+{
+  "country": "Antigua and Barbuda",
+  "reviewed": "2026-10-07",
+  "pillars": [
+    {
+      "name": "Social",
+      "story": "Development achievements, youth inclusion, health and ageing",
+      "cards": [
+        {
+          "name": "Human Development Index",
+          "value": 0.851,
+          "unit": "index",
+          "period": "2023 · UNDP HDR 2025",
+          "subtitle": "Very high human development, reflecting health, education and income achievements.",
+          "source": "UNDP, Human Development Report 2025",
+          "source_url": "https://hdr.undp.org/data-center/country-insights",
+          "icon": "🎓"
+        },
+        {
+          "name": "Youth outside Employment, Education or Training",
+          "value": 17.9,
+          "unit": "%",
+          "period": "2023 · ages 15–24 · labour force survey",
+          "subtitle": "Youth inclusion remains important even when overall employment conditions are stronger.",
+          "source": "ILOSTAT, national Labour Force Survey",
+          "source_url": "https://ilostat.ilo.org/data/country-profiles/atg/",
+          "icon": "💼"
+        },
+        {
+          "name": "Prevalence of Overweight and Obesity",
+          "value": 62.7,
+          "unit": "%",
+          "period": "2022 · PAHO reported estimate",
+          "subtitle": "Excess weight highlights the importance of prevention and long-term health care; this is not obesity alone.",
+          "source": "PAHO, Health in the Americas",
+          "source_url": "https://hia.paho.org/en/country-profiles/antigua-and-barbuda",
+          "icon": "🫀"
+        },
+        {
+          "name": "Older Population",
+          "value": 11.8,
+          "unit": "%",
+          "period": "2024 · PAHO demographic profile",
+          "subtitle": "An older population increases the importance of accessible services, care and social protection.",
+          "source": "PAHO, Health in the Americas",
+          "source_url": "https://hia.paho.org/en/country-profiles/antigua-and-barbuda",
+          "icon": "👥",
+          "scope": "PAHO describes people over 65; retain this wording pending detailed age metadata."
+        }
+      ]
+    },
+    {
+      "name": "Economic",
+      "story": "Public financing, goods trade exposure and tourism earnings",
+      "cards": [
+        {
+          "name": "Total Public Debt",
+          "value": 68.3,
+          "unit": "% of GDP",
+          "period": "2025 · IMF estimate",
+          "subtitle": "Public debt and outstanding arrears constrain room for development and resilience investment.",
+          "source": "IMF, 2026 Article IV consultation",
+          "source_url": "https://www.imf.org/en/news/articles/2026/05/07/pr26142-antigua-and-barbuda-imf-executive-board-concludes-2026-article-iv-consultation",
+          "icon": "💳"
+        },
+        {
+          "name": "Merchandise Trade Balance",
+          "value": -31.8,
+          "unit": "% of GDP",
+          "period": "2025 · IMF estimate",
+          "subtitle": "Goods imports exceed goods exports; services, including tourism, are excluded.",
+          "source": "IMF, 2026 Article IV consultation",
+          "source_url": "https://www.imf.org/en/news/articles/2026/05/07/pr26142-antigua-and-barbuda-imf-executive-board-concludes-2026-article-iv-consultation",
+          "icon": "🌐"
+        },
+        {
+          "name": "Gross Tourism Receipts",
+          "value": 45.0,
+          "unit": "% of GDP",
+          "period": "2025 · IMF estimate",
+          "subtitle": "Tourism generates substantial external earnings. This ratio is not tourism’s contribution to GDP.",
+          "source": "IMF, 2026 Article IV consultation",
+          "source_url": "https://www.imf.org/en/news/articles/2026/05/07/pr26142-antigua-and-barbuda-imf-executive-board-concludes-2026-article-iv-consultation",
+          "icon": "✈️"
+        }
+      ]
+    },
+    {
+      "name": "Environmental",
+      "story": "Disaster exposure, energy dependence and marine biodiversity protection",
+      "cards": [
+        {
+          "name": "Barbuda Homes Damaged by Hurricane Irma",
+          "value": 95,
+          "unit": "%",
+          "period": "September 2017 · historical event",
+          "subtitle": "Damage across Barbuda shows why resilient housing and disaster preparedness matter.",
+          "source": "UNDP, Barbuda housing recovery assessment",
+          "source_url": "https://www.undp.org/barbados/press-releases/first-set-keys-handed-over-eu-funded-housing-support-barbuda-project",
+          "icon": "🌀",
+          "scope": "Barbuda only; historical damage, not current housing condition."
+        },
+        {
+          "name": "Electricity Generation Mix",
+          "value": 93,
+          "unit": "% non-renewable",
+          "period": "2023 · IRENA published rounded shares",
+          "subtitle": "Non-renewable generation dominates electricity supply, linking energy transition with resilience.",
+          "source": "IRENA, country energy profile (updated September 2025)",
+          "source_url": "https://islands.irena.org/-/media/Files/IRENA/Agency/Statistics/Statistical_Profiles/Central-America-and-the-Caribbean/Antigua-and-Barbuda_Central-America-and-the-Caribbean_RE_SP.pdf",
+          "icon": "⚡",
+          "bars": [
+            [
+              "Non-renewable",
+              93
+            ],
+            [
+              "Renewable",
+              7
+            ]
+          ],
+          "bar_unit": "%"
+        },
+        {
+          "name": "Protected Coverage of Marine Biodiversity Sites",
+          "value": 30.0,
+          "unit": "%",
+          "period": "2024 · marine Key Biodiversity Areas",
+          "subtitle": "Average protected-area coverage within marine KBAs; not the share of national waters protected.",
+          "source": "UN Statistics Division, SDG country profile",
+          "source_url": "https://unstats.un.org/sdgs/dataportal/countryprofiles/atg?goal=14",
+          "icon": "🐠",
+          "scope": "Average proportion of marine KBAs covered by protected areas."
+        }
+      ]
+    }
+  ],
+  "headline_themes": 10,
+  "distinct_displayed_values": 11,
+  "notes": [
+    "Water and food security are narrative priorities; no unverified current dependence percentage is displayed.",
+    "Each card preserves its reference year and estimate or historical-event status."
+  ]
+}
