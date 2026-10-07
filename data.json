@@ -4,7 +4,7 @@
   "pillars": [
     {
       "name": "Social",
-      "story": "Development achievements, youth inclusion, health and ageing",
+      "story": "Development achievements, settlement, migration, youth inclusion and health",
       "cards": [
         {
           "name": "Human Development Index",
@@ -15,6 +15,26 @@
           "source": "UNDP, Human Development Report 2025",
           "source_url": "https://hdr.undp.org/data-center/country-insights",
           "icon": "🎓"
+        },
+        {
+          "name": "Population around St John’s",
+          "value": 51737,
+          "unit": "people",
+          "period": "2011 Census · historical baseline",
+          "subtitle": "Just over 60% of the national population lived in St John parish, including the city and rural area.",
+          "source": "Statistics Division, Census demographic profile, pp. 3–4",
+          "source_url": "https://statistics.gov.ag/wp-content/uploads/2017/11/2011-Antigua-and-Barbuda-Population-and-Housing-Census-A-Demographic-Profile.pdf",
+          "icon": "🏘️"
+        },
+        {
+          "name": "Foreign-born Population",
+          "value": 30.4,
+          "unit": "%",
+          "period": "2011 Census · recorded birthplace",
+          "subtitle": "Migration shapes the workforce and society. Share of residents with recorded country of birth.",
+          "source": "Statistics Division, Census demographic profile, p. 9",
+          "source_url": "https://statistics.gov.ag/wp-content/uploads/2017/11/2011-Antigua-and-Barbuda-Population-and-Housing-Census-A-Demographic-Profile.pdf",
+          "icon": "🌍"
         },
         {
           "name": "Youth outside Employment, Education or Training",
@@ -35,43 +55,44 @@
           "source": "PAHO, Health in the Americas",
           "source_url": "https://hia.paho.org/en/country-profiles/antigua-and-barbuda",
           "icon": "🫀"
-        },
-        {
-          "name": "Older Population",
-          "value": 11.8,
-          "unit": "%",
-          "period": "2024 · PAHO demographic profile",
-          "subtitle": "An older population increases the importance of accessible services, care and social protection.",
-          "source": "PAHO, Health in the Americas",
-          "source_url": "https://hia.paho.org/en/country-profiles/antigua-and-barbuda",
-          "icon": "👥",
-          "scope": "PAHO describes people over 65; retain this wording pending detailed age metadata."
         }
       ]
     },
     {
       "name": "Economic",
-      "story": "Public financing, goods trade exposure and tourism earnings",
+      "story": "Goods dependence, public financing, tourism earnings, industry and household costs",
       "cards": [
         {
           "name": "Total Public Debt",
           "value": 68.3,
           "unit": "% of GDP",
           "period": "2025 · IMF estimate",
-          "subtitle": "Public debt and outstanding arrears constrain room for development and resilience investment.",
+          "subtitle": "IMF-estimated public debt burden affects financing for services and resilience; differs from earlier government projections.",
           "source": "IMF, 2026 Article IV consultation",
           "source_url": "https://www.imf.org/en/news/articles/2026/05/07/pr26142-antigua-and-barbuda-imf-executive-board-concludes-2026-article-iv-consultation",
           "icon": "💳"
         },
         {
-          "name": "Merchandise Trade Balance",
-          "value": -31.8,
-          "unit": "% of GDP",
-          "period": "2025 · IMF estimate",
-          "subtitle": "Goods imports exceed goods exports; services, including tourism, are excluded.",
-          "source": "IMF, 2026 Article IV consultation",
-          "source_url": "https://www.imf.org/en/news/articles/2026/05/07/pr26142-antigua-and-barbuda-imf-executive-board-concludes-2026-article-iv-consultation",
-          "icon": "🌐"
+          "name": "Merchandise Imports and Exports",
+          "value": 2297.73,
+          "unit": "EC$ million deficit",
+          "period": "2025 · national merchandise trade statistics",
+          "subtitle": "Imports far exceed goods exports. Exports include re-exports; services are excluded.",
+          "source": "National Bureau of Statistics, updated 8 June 2026",
+          "source_url": "https://statistics.gov.ag/subjects/international-trade/annual-trade-balance-2011-to-2024/",
+          "icon": "🚢",
+          "bars": [
+            [
+              "Imports",
+              2394.8
+            ],
+            [
+              "Exports",
+              97.07
+            ]
+          ],
+          "bar_max": 2500,
+          "bar_unit": "EC$ million"
         },
         {
           "name": "Gross Tourism Receipts",
@@ -82,23 +103,54 @@
           "source": "IMF, 2026 Article IV consultation",
           "source_url": "https://www.imf.org/en/news/articles/2026/05/07/pr26142-antigua-and-barbuda-imf-executive-board-concludes-2026-article-iv-consultation",
           "icon": "✈️"
+        },
+        {
+          "name": "Hospitality and Construction",
+          "value": null,
+          "unit": "",
+          "period": "2024 · forecast/projected column",
+          "subtitle": "These sectors support economic activity. Accommodation and food services are not the whole tourism economy.",
+          "source": "National statistics office and ECCB, rebased national accounts",
+          "source_url": "https://statistics.gov.ag/subjects/economic-accounts/gross-domestic-product-contribution-by-economic-activity-in-current-2018-prices-2011-2024/",
+          "icon": "🏗️",
+          "bars": [
+            [
+              "Hospitality",
+              13.22
+            ],
+            [
+              "Construction",
+              13.74
+            ]
+          ],
+          "bar_max": 20,
+          "bar_unit": "% of GDP"
+        },
+        {
+          "name": "Consumer Price Inflation",
+          "value": 5.5,
+          "unit": "%",
+          "period": "August 2026 · change from August 2025",
+          "subtitle": "Rising prices affect purchasing power. This is a twelve-month change, not annual-average inflation.",
+          "source": "National Bureau of Statistics, August 2026 CPI bulletin",
+          "source_url": "https://statistics.gov.ag/wp-content/uploads/2026/09/Monthly-CPI-August-2026.pdf",
+          "icon": "🛒"
         }
       ]
     },
     {
       "name": "Environmental",
-      "story": "Disaster exposure, energy dependence and marine biodiversity protection",
+      "story": "Water and energy security, Barbuda’s disaster exposure and Redonda conservation",
       "cards": [
         {
-          "name": "Barbuda Homes Damaged by Hurricane Irma",
-          "value": 95,
-          "unit": "%",
-          "period": "September 2017 · historical event",
-          "subtitle": "Damage across Barbuda shows why resilient housing and disaster preparedness matter.",
-          "source": "UNDP, Barbuda housing recovery assessment",
-          "source_url": "https://www.undp.org/barbados/press-releases/first-set-keys-handed-over-eu-funded-housing-support-barbuda-project",
-          "icon": "🌀",
-          "scope": "Barbuda only; historical damage, not current housing condition."
+          "name": "Water Security during Drought",
+          "value": 90,
+          "unit": "%+ desalinated",
+          "period": "End of 2015 drought · historical event",
+          "subtitle": "Desalinated water consumption exceeded 90%, compared with the report’s normal 60%. Not a current supply estimate.",
+          "source": "Department of Environment, State of the Environment 2021",
+          "source_url": "https://environment.gov.ag/wp-content/uploads/2025/10/Final-SOE-Report-Oct-18-2021.pdf",
+          "icon": "💧"
         },
         {
           "name": "Electricity Generation Mix",
@@ -122,23 +174,44 @@
           "bar_unit": "%"
         },
         {
-          "name": "Protected Coverage of Marine Biodiversity Sites",
-          "value": 30.0,
+          "name": "Barbuda Homes Damaged by Hurricane Irma",
+          "value": 95,
           "unit": "%",
-          "period": "2024 · marine Key Biodiversity Areas",
-          "subtitle": "Average protected-area coverage within marine KBAs; not the share of national waters protected.",
-          "source": "UN Statistics Division, SDG country profile",
-          "source_url": "https://unstats.un.org/sdgs/dataportal/countryprofiles/atg?goal=14",
-          "icon": "🐠",
-          "scope": "Average proportion of marine KBAs covered by protected areas."
+          "period": "September 2017 · historical event",
+          "subtitle": "Damage across Barbuda shows why resilient housing and disaster preparedness matter.",
+          "source": "UNDP, Barbuda housing recovery assessment",
+          "source_url": "https://www.undp.org/barbados/press-releases/first-set-keys-handed-over-eu-funded-housing-support-barbuda-project",
+          "icon": "🌀",
+          "scope": "Barbuda only; historical damage, not current housing condition."
+        },
+        {
+          "name": "Redonda Marine Protection",
+          "value": 295.866,
+          "unit": "km²",
+          "period": "Designated 17 August 2023",
+          "subtitle": "Marine area of the Redonda Ecosystem Reserve, alongside protection of the island. Designation does not measure ecosystem condition.",
+          "source": "Government of Antigua and Barbuda, Statutory Instrument 2023 No. 37",
+          "source_url": "https://faolex.fao.org/docs/pdf/ant229068.pdf",
+          "icon": "🐠"
         }
       ]
     }
   ],
-  "headline_themes": 10,
-  "distinct_displayed_values": 11,
+  "headline_themes": 14,
   "notes": [
-    "Water and food security are narrative priorities; no unverified current dependence percentage is displayed.",
-    "Each card preserves its reference year and estimate or historical-event status."
-  ]
+    "14 indicator themes: 5 Social, 5 Economic, 4 Environmental. Charts combine related values within a theme.",
+    "National sources underpin settlement, migration, merchandise trade, industry shares, inflation, drought and protected-area designation.",
+    "Debt and tourism receipts are IMF 2025 estimates, not the government budget’s earlier projections.",
+    "Historical census and drought values are not current conditions.",
+    "Tourism receipts are not tourism GDP contribution; hospitality sector shares are not total tourism shares."
+  ],
+  "policy_context": {
+    "source": "Government 2026 Budget Statement",
+    "url": "https://abconsulate.ca/2026-budget-statement-by-prime-minister-gaston-browne/",
+    "priorities": [
+      "Social Resilience",
+      "Economic Resilience",
+      "Climate Resilience"
+    ]
+  }
 }
