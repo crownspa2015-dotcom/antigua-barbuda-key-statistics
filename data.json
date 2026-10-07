@@ -50,7 +50,7 @@
     },
     {
       "name": "Economic",
-      "story": "Goods dependence, public financing, tourism earnings, industry and household costs",
+      "story": "Goods dependence, public financing, tourism earnings and household costs",
       "cards": [
         {
           "name": "Public debt stock",
@@ -93,28 +93,6 @@
           "source": "IMF, 2026 Article IV consultation",
           "source_url": "https://www.imf.org/en/news/articles/2026/05/07/pr26142-antigua-and-barbuda-imf-executive-board-concludes-2026-article-iv-consultation",
           "icon": "✈️"
-        },
-        {
-          "name": "Gross Domestic Product, Contribution by Economic Activity in Current (2018) Prices (%)",
-          "value": null,
-          "unit": "",
-          "period": "2024 · forecast/projected column",
-          "subtitle": "These sectors support economic activity. Accommodation and food services are not the whole tourism economy.",
-          "source": "National statistics office and ECCB, rebased national accounts",
-          "source_url": "https://statistics.gov.ag/subjects/economic-accounts/gross-domestic-product-contribution-by-economic-activity-in-current-2018-prices-2011-2024/",
-          "icon": "🏗️",
-          "bars": [
-            [
-              "Accommodation and food service activities",
-              13.22
-            ],
-            [
-              "Construction",
-              13.74
-            ]
-          ],
-          "bar_max": 20,
-          "bar_unit": "% of GDP"
         },
         {
           "name": "Headline Inflation",
@@ -166,14 +144,14 @@
       ]
     }
   ],
-  "headline_themes": 11,
+  "headline_themes": 10,
   "notes": [
     "Debt and tourism receipts are IMF 2025 estimates, not the government budget’s earlier projections.",
     "Tourism receipts are not tourism GDP contribution; hospitality sector shares are not total tourism shares.",
-    "11 country-level indicator themes: 4 Social, 5 Economic, 2 Environmental. Subpopulation measures (adult health and youth inclusion) cover the country, with age definitions explicit.",
+    "10 country-level indicator themes: 4 Social, 4 Economic, 2 Environmental. Subpopulation measures (adult health and youth inclusion) cover the country, with age definitions explicit.",
     "Removed parish and island-specific headline measures. Drought denominator could not be established as nationwide.",
     "Migration uses the 2011 national census and only residents with recorded country of birth.",
-    "National publications underpin migration, merchandise trade, sector shares and inflation. International institutions supply the other country-level measures.",
+    "National publications underpin migration, merchandise trade and inflation. International institutions supply the other country-level measures.",
     "No countrywide climate-loss or current desalination percentage is presented without verification."
   ],
   "policy_context": {
