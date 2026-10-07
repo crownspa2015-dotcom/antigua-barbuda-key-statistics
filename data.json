@@ -162,5 +162,14 @@
       "Economic Resilience",
       "Climate Resilience"
     ]
+  },
+  "population": {
+    "name": "Population projection at mid-year estimates",
+    "value": 105182,
+    "year": 2025,
+    "status": "projection",
+    "source": "Statistics Division, Ministry of Finance and Corporate Governance",
+    "source_url": "https://statistics.gov.ag/subjects/population-and-demography/population-projection-at-mid-year-estimates-2011-2025/",
+    "publication_date": "2021-08-10"
   }
 }
