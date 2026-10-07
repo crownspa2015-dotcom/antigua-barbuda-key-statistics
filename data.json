@@ -7,7 +7,7 @@
       "story": "Human development, migration, youth inclusion and adult health",
       "cards": [
         {
-          "name": "Human Development Index",
+          "name": "Human Development Index (HDI)",
           "value": 0.851,
           "unit": "index",
           "period": "2023 · UNDP HDR 2025",
@@ -17,7 +17,7 @@
           "icon": "🎓"
         },
         {
-          "name": "Foreign-born Population",
+          "name": "Foreign-born population",
           "value": 30.4,
           "unit": "%",
           "period": "2011 Census · recorded birthplace",
@@ -27,7 +27,7 @@
           "icon": "🌍"
         },
         {
-          "name": "Youth outside Employment, Education or Training",
+          "name": "Youth not in employment, education or training (NEET) (%)",
           "value": 17.9,
           "unit": "%",
           "period": "2023 · ages 15–24 · labour force survey",
@@ -37,7 +37,7 @@
           "icon": "💼"
         },
         {
-          "name": "Adult Hypertension Prevalence",
+          "name": "Prevalence of arterial hypertension",
           "value": 23.4,
           "unit": "%",
           "period": "2015 · adults aged 18 and older",
@@ -53,7 +53,7 @@
       "story": "Goods dependence, public financing, tourism earnings, industry and household costs",
       "cards": [
         {
-          "name": "Total Public Debt",
+          "name": "Public debt stock",
           "value": 68.3,
           "unit": "% of GDP",
           "period": "2025 · IMF estimate",
@@ -63,11 +63,11 @@
           "icon": "💳"
         },
         {
-          "name": "Merchandise Imports and Exports",
+          "name": "Balance of Trade",
           "value": 2297.73,
           "unit": "EC$ million deficit",
           "period": "2025 · national merchandise trade statistics",
-          "subtitle": "Imports far exceed goods exports. Exports include re-exports; services are excluded.",
+          "subtitle": "Imports and Total are the published trade-table column labels. Total comprises domestic exports and re-exports; services are excluded. The balance is a deficit of EC$2,297.73 million.",
           "source": "National Bureau of Statistics, updated 8 June 2026",
           "source_url": "https://statistics.gov.ag/subjects/international-trade/annual-trade-balance-2011-to-2024/",
           "icon": "🚢",
@@ -77,7 +77,7 @@
               2394.8
             ],
             [
-              "Exports",
+              "Total",
               97.07
             ]
           ],
@@ -85,7 +85,7 @@
           "bar_unit": "EC$ million"
         },
         {
-          "name": "Gross Tourism Receipts",
+          "name": "Gross tourism receipts",
           "value": 45.0,
           "unit": "% of GDP",
           "period": "2025 · IMF estimate",
@@ -95,7 +95,7 @@
           "icon": "✈️"
         },
         {
-          "name": "Hospitality and Construction",
+          "name": "Gross Domestic Product, Contribution by Economic Activity in Current (2018) Prices (%)",
           "value": null,
           "unit": "",
           "period": "2024 · forecast/projected column",
@@ -105,7 +105,7 @@
           "icon": "🏗️",
           "bars": [
             [
-              "Hospitality",
+              "Accommodation and food service activities",
               13.22
             ],
             [
@@ -117,7 +117,7 @@
           "bar_unit": "% of GDP"
         },
         {
-          "name": "Consumer Price Inflation",
+          "name": "Headline Inflation",
           "value": 5.5,
           "unit": "%",
           "period": "August 2026 · change from August 2025",
@@ -133,7 +133,7 @@
       "story": "National electricity supply and marine biodiversity protection",
       "cards": [
         {
-          "name": "Electricity Generation Mix",
+          "name": "Electricity generation",
           "value": 93,
           "unit": "% non-renewable",
           "period": "2023 · IRENA published rounded shares",
@@ -154,10 +154,10 @@
           "bar_unit": "%"
         },
         {
-          "name": "Protected Coverage of Marine Biodiversity Sites",
+          "name": "Proportion of important sites for biodiversity that are covered by protected areas",
           "value": 30.0,
           "unit": "%",
-          "period": "2024 · national marine KBA indicator",
+          "period": "2024 · Marine · national marine KBA indicator",
           "subtitle": "Country-level average protected-area coverage of marine Key Biodiversity Areas. Not the percentage of national waters protected.",
           "source": "UN ECLAC, Statistical Yearbook 2025; SDG biodiversity coverage",
           "source_url": "https://repositorio.cepal.org/server/api/core/bitstreams/b2476d6d-34cd-4e70-a7b7-d39e244a9070/content",
